@@ -1,0 +1,52 @@
+
+body {
+
+  font-family: 'Shadows Into Light', cursive;
+  line-height:1.55;
+
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 12px 0;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+p {
+
+  font-size: 25px;
+}
+.wrap {
+  max-width: 100%;
+  margin:  0 auto;
+text-align: center;
+}
+.row {
+  float:left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.question {
+  font-size: 35px;
+}
+.submit {
+  padding: 20px 5px;
+  button {
+    display: block;
+    outline: none;
+    width: 300px;
+    margin: 1em auto 1.5em;
+    padding: .8em 1em;
+    background: darken($wht,1%);
+    color: darken($wht,12%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid darken($wht,5%);
+  }
+}
+
